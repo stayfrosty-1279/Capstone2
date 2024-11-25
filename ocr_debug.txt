@@ -1,0 +1,134 @@
+
+
+=== New OCR Verification at 2024-11-21 06:34:23 ===
+Image Path: assets/uploads/id-1732170863-idpix-.jpg
+Entered Student No: 21-12497-851
+Extracted Raw Text:
+--
+
+9
+
+-
+
+5
+
+3
+
+21-12497-851
+
+5
+
+3
+
+5
+
+2
+Cleaned text: --9-5321-12497-8515352
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Found match: 21-12497-851
+Formatted number: 21-12497-851
+Comparing with: 21-12497-851
+MATCH FOUND!
+
+
+=== New OCR Verification at 2024-11-21 06:35:02 ===
+Image Path: assets/uploads/id-1732170902-idpix2-.JPG
+Entered Student No: 21-12462-275
+Extracted Raw Text:
+21-12462-275
+Cleaned text: 21-12462-275
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Found match: 21-12462-275
+Formatted number: 21-12462-275
+Comparing with: 21-12462-275
+MATCH FOUND!
+
+
+=== New OCR Verification at 2024-11-21 06:35:46 ===
+Image Path: assets/uploads/id-1732170946-idpix3-.jpg
+Entered Student No: 21-14069-547
+Extracted Raw Text:
+11
+
+21
+Cleaned text: 1121
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Trying pattern: /\d{2}\d{5}\d{3}/
+Trying pattern: /\d{2}[-\s]?\d{5}[-\s]?\d{3}/
+No matching student number found
+
+
+=== New OCR Verification at 2024-11-21 06:36:18 ===
+Image Path: assets/uploads/id-1732170978-IDPic-.JPG
+Entered Student No: 21-12497-851
+Extracted Raw Text:
+7
+
+249
+
+851
+
+2
+Cleaned text: 72498512
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Trying pattern: /\d{2}\d{5}\d{3}/
+Trying pattern: /\d{2}[-\s]?\d{5}[-\s]?\d{3}/
+No matching student number found
+
+
+=== New OCR Verification at 2024-11-21 06:42:57 ===
+Image Path: assets/uploads/id-1732171377-idpix-.jpg
+Entered Student No: 21-12497-851
+Extracted Raw Text:
+--
+
+9
+
+-
+
+5
+
+3
+
+21-12497-851
+
+5
+
+3
+
+5
+
+2
+Cleaned text: --9-5321-12497-8515352
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Found match: 21-12497-851
+Formatted number: 21-12497-851
+Comparing with: 21-12497-851
+MATCH FOUND!
+
+
+=== New OCR Verification at 2024-11-21 06:43:24 ===
+Image Path: assets/uploads/id-1732171404-idpix3-.jpg
+Entered Student No: 21-14069-547
+Extracted Raw Text:
+11
+
+21
+Cleaned text: 1121
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Trying pattern: /\d{2}\d{5}\d{3}/
+Trying pattern: /\d{2}[-\s]?\d{5}[-\s]?\d{3}/
+No matching student number found
+
+
+=== New OCR Verification at 2024-11-21 06:43:49 ===
+Image Path: assets/uploads/id-1732171429-idpix2-.JPG
+Entered Student No: 21-12462-275
+Extracted Raw Text:
+21-12462-275
+Cleaned text: 21-12462-275
+Trying pattern: /\d{2}-\d{5}-\d{3}/
+Found match: 21-12462-275
+Formatted number: 21-12462-275
+Comparing with: 21-12462-275
+MATCH FOUND!

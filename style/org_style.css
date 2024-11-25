@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: "Poppins", serif;
+  background-color: #fbfbf9;; /* Replace with any color you like */
+}
+
+/* Colors */
+.bg-primary {
+  background-color: #102c57 !important;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  background-color: transparent !important;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #102c57;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-link.active {
+  color: #102c57;
+}
+
+/* Section Divider */
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}

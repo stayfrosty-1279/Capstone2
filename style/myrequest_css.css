@@ -1,0 +1,247 @@
+
+    <style>
+        .header1 {
+            min-height: 15vh;
+            width: 100%;
+            background-image: url(<?php echo $background; ?>);
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            position: relative;
+        }
+
+        .text-with-border {
+            font-size: 4vh;
+            color: black;
+            text-shadow: -1px -1px 0 lightgreen,  
+                          1px -1px 0 lightgreen,
+                         -1px  1px 0 lightgreen,
+                          1px  1px 0 lightgreen;
+        }
+
+        .text-with-border2 {
+            font-size: 2vh;
+            color: black;
+            text-shadow: -1px -1px 0 lightgreen,  
+                          1px -1px 0 lightgreen,
+                         -1px  1px 0 lightgreen,
+                          1px  1px 0 lightgreen;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Ensure items wrap to next line on small screens */
+            justify-content: space-between;
+            padding-left:4vh;
+            padding-right:4vh;
+            width:100% !important;
+            max-width:100% !important;
+        }
+
+        .div1 {
+            width: 52%; /* Set width to 100% for mobile devices */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+            padding: 4vh;
+            border-radius: 2vh 0 0 2vh;
+            margin-top: 13vh;
+        }
+        .div2 {
+            width: 48%; /* Set width to 100% for mobile devices */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+            padding: 1vh;
+            border-radius: 0 2vh 2vh 0;
+            margin-top: 13vh;
+        }
+
+        @media (max-width: 768px) { /* Apply styles for screens wider than 768px */
+            .container {
+            display: relative;
+            padding-left:1vh;
+            padding-right:1vh;
+            }
+
+            .div1 {
+                width: 100%; /* Set width to 100% for mobile devices */
+                background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+                padding: 2vh;
+                border-radius: 1vh;
+                margin-top: 1vh !important;
+            }
+            .div2 {
+                width: 100%; /* Set width to 100% for mobile devices */
+                background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+                padding: 2vh;
+                border-radius: 1vh;
+                margin-top: 1vh !important;
+            }
+        }
+
+        .carousel {
+            width: 100%; /* Ensure the carousel fills the width of its container */
+            height: 100%; /* Ensure the carousel fills the height of its container */
+        }
+
+        .carousel-inner {
+            width: 100%; /* Ensure the carousel items fill the width of the carousel */
+            height: 100%; /* Ensure the carousel items fill the height of the carousel */
+        }
+
+        .carousel-item {
+            width: 100%; /* Ensure each carousel item fills the width of the carousel */
+            height: 100%; /* Ensure each carousel item fills the height of the carousel */
+        }
+
+        .carousel-item img {
+            object-fit: cover; /* Ensure the image fills the entire carousel item */
+            height: 100% !important;
+            border-radius:2vh;
+            max-height:50vh;
+            min-height:50vh;
+        }
+    </style>
+    <style>
+            .container33 {
+              display: flex;
+              align-items: center;
+              width: 80%; /* Adjust as needed */
+              margin: 4.9800796812749vh auto;
+              position: relative;
+            }
+
+            .circle33 {
+              width: 9.9601593625498vh;
+              height: 9.9601593625498vh;
+              border-radius: 50%;
+              background-color: white; /* Adjust color as needed */
+              z-index: 9999;
+              border: 1px solid #212529;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+            }
+
+            .circle-number {
+              font-size: 2.3904382470119523vh;
+              font-weight: bold;
+              margin-top: 6vh;
+              margin-bottom: 4vh;
+            }
+
+            .circle-label {
+              font-size: 1.3944223107569722vh;
+              color: #212529;
+              width: 30vh;
+              text-align: center;
+            }
+
+            .line33 {
+              height: 0.398406374501992vh;
+              background-color: #212529;
+              flex: 1;
+              position: relative; /* Ensure positioning of child elements */
+            }
+
+            .small-circle33 {
+              width: 1.9920318725099602vh;
+              height: 1.9920318725099602vh;
+              border-radius: 50%;
+              background-color: white; /* Adjust color as needed */
+              border: 1px solid #212529;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+
+            /* Added styles to position lines properly */
+            .container33 .line33:nth-child(odd) {
+              margin-right: -50px; /* Half the circle width */
+            }
+
+            .container33 .line33:nth-child(even) {
+              margin-left: -50px; /* Half the circle width */
+            }
+
+            @media (max-width: 768px) {
+              .container33 {
+                width: 90%;
+                margin: 30px auto;
+              }
+              
+              .circle33 {
+                width: 60px;
+                height: 60px;
+              }
+              
+              .circle-number {
+                font-size: 14px;
+                margin-top: 5vh;
+                margin-bottom: 3vh;
+              }
+              
+              .circle-label {
+                font-size: 10px;
+                width: 100px;
+              }
+              
+              .line33 {
+                height: 2px;
+              }
+              
+              .small-circle33 {
+                width: 12px;
+                height: 12px;
+              }
+            }
+            .registration-images {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .registration-image {
+                width: 100px; /* Adjust the size as needed */
+                height: auto;
+                transition: transform 0.3s, border 0.3s; /* Add transition effect */
+            }
+
+            .registration-image:hover {
+                transform: scale(1.1); /* Enlarge slightly on hover */
+                border: 1px solid black; /* Add border on hover */
+            }
+
+            .image-label {
+                margin-top: 5px;
+            }
+            .documentrequest {
+              height: auto;
+              border-radius: 2vh;
+              padding: 3vh;
+              cursor: pointer;
+              background-color: white;
+              transition: transform 0.3s ease;
+            }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .pdf-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .dataTables_filter{
+            margin-bottom:1vh;
+        }

@@ -1,0 +1,35 @@
+
+
+=== OCR Verification 2024-11-21 06:17:43 ===
+Image Path: assets/uploads/id-1732169863-IDPic-.JPG
+Entered Student No: 21-12497-851
+
+
+OCR Extracted Text: Now Eva University
+
+Arden Arthur S
+
+21-12497-861
+Found student number: 21-12497-861
+Matches entered number: No
+No matching student number pattern found
+
+
+=== OCR Verification 2024-11-21 06:19:01 ===
+Image Path: assets/uploads/id-1732169941-idpix3-.jpg
+Entered Student No: 21-14069-547
+OCR Extracted Text: fe New Ema University
+
+AVENUE MEW ENA Quezon ©
+No matching student number pattern found
+
+
+=== OCR Verification 2024-11-21 06:19:46 ===
+Image Path: assets/uploads/id-1732169986-idpix-.jpg
+Entered Student No: 21-12497-851
+OCR Extracted Text: Arden Arthur S.
+Ramos
+21-12497-851
+Found student number: 21-12497-851
+Matches entered number: Yes
+Verification successful!

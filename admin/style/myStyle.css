@@ -1,0 +1,42 @@
+.bg-orange {
+  background-color: #d78219;
+}
+
+.btn-orange {
+  background-color: #d08223;
+}
+
+.btn-white {
+  background-color: #eef9ff;
+  color: #091e3e;
+}
+
+.background {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/sanjose.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper {
+  border-top: 03px solid #ea8408;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: #ea8408;
+}
+
+.container-box {
+  padding-top: 150px;
+}
+
+@media (max-width: 991.98px) {
+  .container-box {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
